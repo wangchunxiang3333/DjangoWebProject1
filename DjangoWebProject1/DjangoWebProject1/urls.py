@@ -24,7 +24,7 @@ Including another URLconf
     # Uncomment the next line to enable the admin:
     #path('admin/', admin.site.urls)
 from django.conf.urls import include, url
-import HelloDjangoApp.views
+import HelloDjangoApp.views 
 
 # Django processes URL patterns in the order they appear in the array
 urlpatterns = [
